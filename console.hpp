@@ -1,3 +1,6 @@
+#ifndef CONSOLE_CONSOLE_HPP
+#define CONSOLE_CONSOLE_HPP
+
 #include <iostream>
 
 
@@ -17,3 +20,5 @@ public:
         log(args...);
     }
 };
+
+#endif
